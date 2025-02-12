@@ -1,0 +1,54 @@
+body{
+    background-color:  rgb(130, 117, 206);
+    background-size: cover;
+}
+.titulo{
+    font-size: 50px;
+    color:beige;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+.imagen{
+    display: flex;
+    flex-direction: row;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.boton1{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 15px;
+}
+.boton2{
+    background-color:crimson; 
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 15px;
+}
+.contenedorBoton1{
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+.contenedorBoton2{
+    display: flex;
+    flex:1;
+    justify-content: center;
+}
+.botones{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
